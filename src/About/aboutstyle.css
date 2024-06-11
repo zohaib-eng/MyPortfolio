@@ -1,0 +1,240 @@
+/* .aboutcontainer .row-1 h4{
+    background-color: red;
+    width: 100%;
+    max-width: 30%;
+    min-height: 300px;
+    margin-top: -1450px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.aboutcontainer .row-2 h4{
+    background-color: rgb(81, 235, 61);
+    width: 100%;
+    max-width: 30%;
+    min-height: 300px;
+    margin-left: 60%;
+    margin-top: -23%;
+    display: flex;
+} */
+
+/* h4{
+    color: black;
+    transform: translateY(-1450px);
+} */
+
+
+.aboutcontainer {
+    width: 85%;
+    height: 540px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(80, 230, 42);
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0px 17px 40px rgba(32, 31, 31, 0.3);
+    overflow: hidden;
+    gap: 20px;
+}
+
+.row-1 {
+    width: 47%;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    /* box-shadow: 0px 17px 40px rgba(32, 31, 31, 0.3); */
+    overflow: hidden;
+    gap: 20px;
+}
+
+.self-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40%;
+}
+
+.row-1 h4{
+    font-size : clamp(1rem, 20vw, 2rem);
+    color: black;
+}
+
+.row-1 p{
+    font-size : clamp(1rem, 20vw, 1rem);
+    color: black;
+}
+
+.cards {
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 170px;
+    left: 50%;
+    top: 75%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card1 {
+    background-color: rgb(253, 253, 253);
+    width: 32%;
+    height: 160px;
+    left: 17%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 1px solid rgb(128, 127, 127);
+}
+
+.card2 {
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    height: 160px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 1px solid rgb(128, 127, 127);
+}
+
+.card3 {
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    height: 160px;
+    left: 83%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: 1px solid rgb(128, 127, 127);
+} 
+
+.row-2 {
+    width: 47%;
+    height: 490px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(28, 24, 248);
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0px 17px 40px rgba(32, 31, 31, 0.3);
+    overflow: hidden;
+    gap: 20px;
+}
+
+/* .snippet1 ul li {
+    padding-left: 2px;
+    display: flex;
+} */
+
+.snippet1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.snippet1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 5px 0; 
+}
+
+.snippet1 h4 {
+    margin: 5px 0; 
+    font-weight: 600;
+}
+  
+.snippet1 p {
+    margin: 5px 0 0 0; 
+    color: gray;
+}
+  
+.snippet1 .basic-info li {
+    display: inline-block;
+    margin: 0 5px; 
+}
+
+
+
+.snippet2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 20px;
+    color: rgb(99, 162, 245);
+}
+.snippet2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 5px 0; 
+}
+
+.snippet2 h4 {
+    margin: 5px 0; 
+    font-weight: 600;
+}
+  
+.snippet2 p {
+    margin: 5px 0 0 0; 
+    color: gray;
+}
+  
+.snippet2 .basic-info2 li {
+    display: inline-block;
+    margin: 0 5px; 
+}
+
+
+
+.snippet3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.snippet3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 5px 0; 
+    color: rgb(99, 162, 245);
+}
+
+.snippet3 h4 {
+    margin: 5px 0; 
+    font-weight: 600;
+}
+  
+.snippet3 p {
+    margin: 5px 0 0 0; 
+    color: gray;
+}
+  
+.snippet3 .basic-info3 li {
+    display: inline-block;
+    margin: 0 5px; 
+}
